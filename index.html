@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Web Developer & Designer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero Section dengan Parallax -->
+  <section class="hero" data-parallax="true">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Arsya</span></h1>
+      <p id="typing-text" class="subtitle"></p>
+      <a href="#projects" class="btn-primary">See Projects</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+    <div class="scroll-down">Scroll to see more ↓</div>
+  </section>
+
+  <!-- Navbar (Sticky + Dark Mode Toggle) -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="Images/Logo/ARSYA_LOGO.png" alt="Arsya Logo">
+      </a>  
+      <!-- Hamburger Button -->
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+  
+      <!-- Mobile Menu -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkModeToggle" class="btn-dark-mode">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+<!-- Tentang Saya -->
+<section id="about" class="section about fade-up">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="Images/FotoProfile/FotoPakaiKacamataBlur.jpg" alt="Foto Profil">
+      </div>
+      <div class="about-content">
+        <h3>Hai, saya <span class="highlight">Arsya</span> 👋</h3>
+        <p><strong>Web Developer & UI Designer</strong> dari Jakarta. Saya mencintai desain yang bersih, kode yang rapi, dan pengalaman pengguna yang menyenangkan.</p>
+        <p>Saya percaya bahwa web bukan cuma soal tampilan, tapi juga <em>kecepatan, aksesibilitas, dan konversi</em>. Dengan pendekatan yang data-driven, saya bantu bisnis membuat website yang tidak hanya cantik, tapi juga <strong>berdampak nyata</strong>.</p>
+        <p>Saat tidak di depan layar, saya suka membaca buku desain, ngopi di kafe, atau jalan-jalan cari inspirasi.</p>
+        <a href="#" class="btn-primary">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- Proyek -->
+    <section id="projects" class="section projects fade-up">
+      <h2 class="section-title">Newest Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="Images/Projects/ProjectArionApp.png" alt="Arion App">
+          <h3>Arion App</h3>
+          <p>A Modern gym app for scan check-in, manage memberships, and much more.</p>
+          <a href="#" class="btn-small">See Detail</a>
+        </div>
+        <div class="project-card">
+          <img src="Images/Projects/ProjectKalkulator.png" alt="Kalkulator">
+          <h3>Multifunction Calculator</h3>
+          <p>Calculator that can calculate various mathematical operations.</p>
+          <a href="#" class="btn-small">See Detail</a>
+        </div>
+        <div class="project-card">
+          <img src="Images/Projects/ProjectStudent.png" alt="Student Management">
+          <h3>Student Management</h3>
+          <p>Application for Managing Student Data.</p>
+          <a href="#" class="btn-small">See Detail</a>
+        </div>
+      </div>
+    </section>
+
+ <!-- Skill -->
+ <section id="skills" class="skills-wrapper">
+    <h2 class="skill-title">My Skills</h2>
+    <p class="skill-description">
+      Here's an overview of my proficiency in programming languages, frameworks, and tools I use to build modern web and mobile applications.
+    </p>
+  
+    <div class="skill-columns">
+      <!-- 🧩 TECH STACK -->
+      <div class="tech-stack">
+        <h3 class="skill-subtitle">Tech Stack & Languages</h3>
+        <div class="skill-list">
+  
+          <!-- SKILLS -->
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/HTMLLogo.png" alt="HTML">
+              <span>HTML</span>
+            </div>
+            <div class="level-indicator advanced">
+              <div class="dot"></div>
+              <span class="label">Advanced</span>
+            </div>
+          </div>
+  
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/CSSLogo2.png" alt="CSS">
+              <span>CSS</span>
+            </div>
+            <div class="level-indicator advanced">
+              <div class="dot"></div>
+              <span class="label">Advanced</span>
+            </div>
+          </div>
+  
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/JSLogo.png" alt="JavaScript">
+              <span>JavaScript</span>
+            </div>
+            <div class="level-indicator advanced">
+              <div class="dot"></div>
+              <span class="label">Advanced</span>
+            </div>
+          </div>
+  
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/FlutterLogo.png" alt="Flutter">
+              <span>Flutter</span>
+            </div>
+            <div class="level-indicator advanced">
+              <div class="dot"></div>
+              <span class="label">Advanced</span>
+            </div>
+          </div>
+  
+          
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/DartLogo.png" alt="Dart">
+              <span>Dart</span>
+            </div>
+            <div class="level-indicator advanced">
+              <div class="dot"></div>
+              <span class="label">Advanced</span>
+            </div>
+          </div>
+
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/PHPLogo1.png" alt="PHP">
+              <span>PHP</span>
+            </div>
+            <div class="level-indicator intermediate">
+              <div class="dot"></div>
+              <span class="label">Intermediate</span>
+            </div>
+          </div>
+
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/LaravelLogo1.png" alt="Laravel">
+              <span>Laravel</span>
+            </div>
+            <div class="level-indicator intermediate">
+              <div class="dot"></div>
+              <span class="label">Intermediate</span>
+            </div>
+          </div>
+  
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/ReactLogo.png" alt="React">
+              <span>React</span>
+            </div>
+            <div class="level-indicator basic">
+              <div class="dot"></div>
+              <span class="label">Basic</span>
+            </div>
+          </div>
+  
+          <div class="tools-card">
+            <div class="skill-info">
+              <img src="Images/Logo/JavaLogo.png" alt="Java">
+              <span>Java</span>
+            </div>
+            <div class="level-indicator basic">
+              <div class="dot"></div>
+              <span class="label">Basic</span>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+      <!-- 🧰 TOOLS SECTION -->
+      <div class="tools-section">
+        <h3 class="tools-title">Tools & Software</h3>
+        <div class="tools-list">
+          <div class="tools-card2">
+            <img src="Images/Logo/GithubLogo.png" alt="GitHub">
+            <span>GitHub</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/VSCodeLogo1.png" alt="VS Code">
+            <span>VS Code</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/FigmaLogo.png" alt="Figma">
+            <span>Figma</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/CanvaLogo1.png" alt="Canva">
+            <span>Canva</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/PostmanLogo.png" alt="Postman">
+            <span>Postman</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/ClickUpLogo.png" alt="ClickUp">
+            <span>ClickUp</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/LaragonLogo.png" alt="Laragon">
+            <span>Laragon</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/WindSurfLogo.png" alt="WindSurf">
+            <span>WindSurf</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/PHPMyAdminLogo.png" alt="PHPMyAdmin">
+            <span>PHPMyAdmin</span>
+          </div>
+          <div class="tools-card2">
+            <img src="Images/Logo/MySQLLogo.png" alt="MySQL">
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  
+ 
+<!-- Pendidikan -->
+<section id="education" class="section education fade-up">
+    <h2 class="section-title">Study</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>SDIT Amal Insani Jepara</h3>
+        <p class="timeline-subtitle">Jepara, Jawa Tengah</p>
+        <p class="timeline-year">2013 - 2019</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Pondok Pesantren Muhammdiyah Kudus</h3>
+        <p class="timeline-subtitle">Kudus, Jawa Tengah</p>
+        <p class="timeline-year">2019 - 2022</p>
+      </div>
+      <div class="timeline-item">
+        <h3>SMK Raden Umar Said Kudus</h3>
+        <p class="timeline-subtitle">Kudus, Jawa Tengah</p>
+        <p class="timeline-year">2022 - Now</p>
+      </div>
+    </div>
+  </section>
+    <!-- Kontak -->
+<!-- Form Kontak -->
+<section id="contact" class="section contact fade-up">
+  <h2 class="section-title">Let's Collaborate!</h2>
+  <p class="contact-text">
+    Have an interesting project? Need a cool website? Or just want to chat? Send your message below!
+  </p>
+
+  <!-- Demo Form -->
+  <form id="demoForm" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn-primary">Send Message 🚀</button>
+  </form>
+
+  <!-- Snackbar -->
+  <div id="snackbar"></div>
+
+  <div class="social-links">
+    <a href="https://github.com/ArsyaFows" target="_blank">GitHub</a> •
+    <a href="https://www.linkedin.com/in/arsya-marzuki-7103ba310/" target="_blank">LinkedIn</a> •
+    <a href="https://www.instagram.com/arsya_fows/" target="_blank">Instagram</a>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 <strong>Arsya</strong>. Created with 💻 and ☕.</p>
+  </footer>
+
+
+
+
+
+  <!-- JavaScript: Typing Effect + Dark Mode + Scroll Animation -->
+<!-- JavaScript: Typing Effect + Dark Mode + Scroll Animation + Hamburger Menu -->
+<script src="java.js"></script>
+  
+
+</body>
+</html>
